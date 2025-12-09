@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 
 const Step2 = () => {
@@ -51,13 +52,13 @@ const Step2 = () => {
 
                     </div>
                 </div>
-                <div>
-                    <div style={{ width: '100%', height: '500px' }}>
+                <div className='w-full h-screen flex items-center justify-center'>
+                    <div className='w-full h-full max-w-6xl p-5'>
+                        
                         <iframe
                             src="https://form.typeform.com/to/mWHJNwhM"
                             width="100%"
                             height="100%"
-                            frameBorder="0"
                             title="Typeform"
                         />
                     </div>
