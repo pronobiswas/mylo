@@ -2,16 +2,16 @@
 
 import Beforeourupcomingcall from "@/components/beforeourupcomingcall";
 import {
-  Header,
+  // Header,
   HeroSection,
-  Process,
-  FAQs,
-  About,
-  CaseStudies,
-  Forecast,
+  // Process,
+  // FAQs,
+  // About,
+  // CaseStudies,
+  // Forecast,
   Footer,
-  Months,
-  DownloadList
+  // Months,
+  // DownloadList
 } from "@/components/index";
 import Step2 from "@/components/step2";
 
