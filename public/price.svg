@@ -1,0 +1,37 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2278_1176)">
+<rect width="40" height="40" rx="6" fill="url(#paint0_radial_2278_1176)" fill-opacity="0.24"/>
+<g filter="url(#filter0_d_2278_1176)">
+<path d="M9.42672 19.9267C9.02317 19.5232 8.82139 19.3214 8.67709 19.0859C8.54916 18.8771 8.45488 18.6495 8.39772 18.4115C8.33325 18.1429 8.33325 17.8576 8.33325 17.2869L8.33325 12.0666C8.33325 10.7598 8.33325 10.1064 8.58757 9.60727C8.81128 9.16823 9.16823 8.81127 9.60727 8.58757C10.1064 8.33325 10.7598 8.33325 12.0666 8.33325L17.2869 8.33325C17.8576 8.33325 18.1429 8.33325 18.4115 8.39772C18.6495 8.45488 18.8771 8.54916 19.0859 8.67709C19.3214 8.82139 19.5232 9.02317 19.9267 9.42672L28.8734 18.3735C30.2595 19.7595 30.9525 20.4525 31.2122 21.2517C31.4406 21.9546 31.4406 22.7119 31.2122 23.4148C30.9525 24.214 30.2595 24.907 28.8734 26.293L26.293 28.8734C24.907 30.2595 24.214 30.9525 23.4148 31.2122C22.7119 31.4406 21.9546 31.4406 21.2517 31.2122C20.4525 30.9525 19.7595 30.2595 18.3735 28.8734L9.42672 19.9267Z" fill="url(#paint1_linear_2278_1176)"/>
+<path d="M15.9166 15.3333C15.9166 15.6554 15.6554 15.9166 15.3333 15.9166C15.0111 15.9166 14.7499 15.6554 14.7499 15.3333C14.7499 15.0111 15.0111 14.7499 15.3333 14.7499C15.6554 14.7499 15.9166 15.0111 15.9166 15.3333Z" fill="url(#paint2_linear_2278_1176)"/>
+<path d="M15.3333 15.3333H15.3449M8.33325 12.0666L8.33325 17.2869C8.33325 17.8576 8.33325 18.1429 8.39772 18.4115C8.45488 18.6495 8.54916 18.8771 8.67709 19.0859C8.82139 19.3214 9.02317 19.5232 9.42672 19.9267L18.3735 28.8734C19.7595 30.2595 20.4525 30.9525 21.2517 31.2122C21.9546 31.4406 22.7119 31.4406 23.4148 31.2122C24.214 30.9525 24.907 30.2595 26.293 28.8734L28.8734 26.293C30.2595 24.907 30.9525 24.214 31.2122 23.4148C31.4406 22.7119 31.4406 21.9546 31.2122 21.2517C30.9525 20.4525 30.2595 19.7595 28.8734 18.3735L19.9267 9.42672C19.5232 9.02317 19.3214 8.82139 19.0859 8.67709C18.8771 8.54916 18.6495 8.45488 18.4115 8.39772C18.1429 8.33325 17.8576 8.33325 17.2869 8.33325L12.0666 8.33325C10.7598 8.33325 10.1064 8.33325 9.60727 8.58757C9.16823 8.81127 8.81128 9.16823 8.58757 9.60727C8.33325 10.1064 8.33325 10.7598 8.33325 12.0666ZM15.9166 15.3333C15.9166 15.6554 15.6554 15.9166 15.3333 15.9166C15.0111 15.9166 14.7499 15.6554 14.7499 15.3333C14.7499 15.0111 15.0111 14.7499 15.3333 14.7499C15.6554 14.7499 15.9166 15.0111 15.9166 15.3333Z" stroke="white" stroke-opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_2278_1176" x="2" y="6" width="36" height="36" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0507042 0 0 0 0 0.129296 0 0 0 0 0.101408 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2278_1176"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2278_1176" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_2278_1176" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20 55.5) rotate(90) scale(60 33.9691)">
+<stop stop-color="#106038"/>
+<stop offset="1" stop-color="#57E39C"/>
+</radialGradient>
+<linearGradient id="paint1_linear_2278_1176" x1="19.8584" y1="8.33325" x2="19.8584" y2="36.4544" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear_2278_1176" x1="19.8584" y1="8.33325" x2="19.8584" y2="36.4544" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_2278_1176">
+<rect width="40" height="40" rx="6" fill="white"/>
+</clipPath>
+</defs>
+</svg>
