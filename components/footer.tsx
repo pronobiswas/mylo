@@ -15,7 +15,7 @@ const myFont = localFont({
 export default function Footer() {
   return (
     <>
-      <div className="w-full h-fit py-12">
+      <div className="w-full h-fit py-12 px-5">
 
         <div className="hidden">
           <motion.footer
