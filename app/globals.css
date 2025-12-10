@@ -152,3 +152,8 @@
 @import "swiper/css";
 @import "swiper/css/navigation";
 @import "swiper/css/pagination";
+
+
+.review-card{
+  @apply w-full flex flex-col lg:flex-row gap-8 text-white bg-emerald-800 p-7 rounded-2xl border border-emerald-400
+}
