@@ -1,18 +1,18 @@
-// "use client";
 
-import Beforeourupcomingcall from "@/components/beforeourupcomingcall";
+
 import {
-  // Header,
+  Header,
   HeroSection,
-  // Process,
-  // FAQs,
-  // About,
-  // CaseStudies,
-  // Forecast,
+  Process,
+  FAQs,
+  About,
+  CaseStudies,
+  Forecast,
   Footer,
-  // Months,
-  // DownloadList
+  Months,
+  DownloadList
 } from "@/components/index";
+import Beforeourupcomingcall from "@/components/beforeourupcomingcall";
 import Step2 from "@/components/step2";
 
 
@@ -66,7 +66,6 @@ export default function Home() {
             <Step2 />
         </section>
       </main>
-      <div className="w-full h-[2px] bg-emerald-400"></div>
 
       <Footer />
 
