@@ -25,7 +25,7 @@ export default function Home() {
 
       <HeroSection />
 
-      <main className="flex flex-col justify-center w-full mt-45 mb-30 gap-40 items-center mx-auto">
+      <main className="main ">
 
 
         {/* <section id="process" className="flex w-full justify-center items-center max-w-5xl mx-auto scroll-mt-[130px] -mt-20">
@@ -62,7 +62,7 @@ export default function Home() {
         <section>
           <Beforeourupcomingcall/>
         </section>
-        <section id="section_step_2" className="w-full flex justify-center">
+        <section id="section_step_2" className="w-full h-fit flex justify-center bg-[#00d492]">
             <Step2 />
         </section>
       </main>

@@ -4,7 +4,7 @@ import React from 'react'
 const Step2 = () => {
     return (
         <>
-            <section id='section2' className='w-full' >
+            <section id='section2' className='w-full h-fit bg-[#00d492] border-8 border-amber-100 ' >
                 <div className='w-full h-fit p-5 hidden'>
                     {/* ===heading=== */}
                     <div className='text-white text-center pb-8'>

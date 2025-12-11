@@ -153,6 +153,10 @@
 @import "swiper/css/navigation";
 @import "swiper/css/pagination";
 
+main{
+  @apply w-full h-fit p-5 md: flex flex-col justify-center bg-[#000f0a] gap-40 items-center mx-auto;
+}
+
 
 .review-card{
   @apply w-full flex flex-col lg:flex-row gap-8 text-white bg-emerald-800 p-7 rounded-2xl border border-emerald-400
