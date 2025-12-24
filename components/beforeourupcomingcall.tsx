@@ -65,11 +65,14 @@ const Beforeourupcomingcall = () => {
                                 }}
                                 className="w-full aspect-video rounded-3xl overflow-hidden order-1 lg:order-2">
                                     <video
-                                        controls
+                                        autoPlay 
+                                        muted 
+                                        loop 
                                         playsInline
+                                        controls
                                         className="w-full h-full object-cover"
                                     >
-                                        <source src="/demo.mp4" type="video/mp4" />
+                                        <source src="/videos/kai.mp4" type="video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </motion.div>
@@ -95,11 +98,14 @@ const Beforeourupcomingcall = () => {
                                     delay:.2
                                 }}className="w-full aspect-video rounded-3xl overflow-hidden order-2 lg:order-1">
                                     <video
-                                        controls
+                                        autoPlay 
+                                        muted 
+                                        loop 
                                         playsInline
+                                        controls
                                         className="w-full h-full object-cover"
                                     >
-                                        <source src="/demo.mp4" type="video/mp4" />
+                                        <source src="/videos/jacob.mp4" type="video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </motion.div>
@@ -145,11 +151,14 @@ const Beforeourupcomingcall = () => {
                                 }}
                                 className="w-full aspect-video rounded-3xl overflow-hidden order-1 lg:order-2">
                                     <video
-                                        controls
+                                        autoPlay 
+                                        muted 
+                                        loop 
                                         playsInline
+                                        controls
                                         className="w-full h-full object-cover"
                                     >
-                                        <source src="/demo.mp4" type="video/mp4" />
+                                        <source src="/videos/ollie.mp4" type="video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </motion.div>
