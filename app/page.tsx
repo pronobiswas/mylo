@@ -14,6 +14,7 @@ import {
 } from "@/components/index";
 import Beforeourupcomingcall from "@/components/beforeourupcomingcall";
 import Step2 from "@/components/step2";
+import OurProgram from "@/components/ourprogram";
 
 
 
@@ -66,6 +67,10 @@ export default function Home() {
         {/* <section id="download" className="flex w-full justify-center items-center max-w-5xl mx-auto scroll-mt-[130px]">
           <DownloadList />
         </section> */}
+
+        <section>
+          <OurProgram/>
+        </section>
         <section>
           <Beforeourupcomingcall/>
         </section>
