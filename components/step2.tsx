@@ -57,7 +57,7 @@ const Step2 = () => {
                     <div className='w-full h-full max-w-6xl p-5'>
                         
                         <iframe
-                            src="https://form.typeform.com/to/mWHJNwhM"
+                            src="https://form.typeform.com/to/VehliYSJ"
                             width="100%"
                             height="100%"
                             title="Typeform"
