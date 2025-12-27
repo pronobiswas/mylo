@@ -4,47 +4,50 @@ import { FaCheckCircle } from "react-icons/fa";
 
 export default function Ourprogram() {
     return (
-        <div className='w-full p-0 md:p-3 bg-white'>
+        <div
+        style={{
+                    background: 'radial-gradient(circle,rgba(0, 100, 50, 1) 0%, rgba(166, 255, 178, 0.25) 48%, rgba(255, 255, 255, 0) 90%)',
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                }}
+         className='w-full p-0 md:p-3'>
             {/* --card wrapper-- */}
-            <h2 className='text-2xl font-bold text-center mt-2'>What's inside<span className='text-green-600'>Our Program?</span></h2>
+            <h2 className='text-4xl font-bold text-center mt-2 text-emerald-500 py-12'>What's inside<span className='text-green-600'>Our Program?</span></h2>
             <div
-            style={{
-                        background: 'radial-gradient(circle,rgba(166, 255, 178, 1) 0%, rgba(166, 255, 178, 0.25) 48%, rgba(255, 255, 255, 0) 90%)',
-                        backgroundPosition: 'center',
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat',
-                    }}
-                    className='w-full flex justify-center items-center'
+                
+                className='w-full flex justify-center items-center'
             >
                 <div
-                    
+
                     className='w-full max-w-[1240px] p-3 md:p-5 rounded-3xl grid grid-cols-1 md:grid-cols-2 place-content-center gap-8 justify-center items-center'
                 >
                     {/* --card Resources (Including AI Automations)-- */}
-                    <div className="w-full max-w-[640px] h-full p-5 pb-8 md:p-12 md:pb-14 rounded-2xl bg-white py-8 flex flex-col gap-6 mx-auto ">
-                        <div className='w-16 h-16 bg-green-600 rounded-full flex items-center justify-center text-white text-4xl pl-1 '><FaFolderOpen /></div>
-                        <h3 className='text-2xl font-semibold'>Resources (Including AI Automations)</h3>
-                        <p className='text-base md:text-[18px]'>Joining the Easy Etsy community unlocks access to exclusive resources that we personally use to outcompete the competition with ease, in order to achieve results in months that takes others years.</p>
-                        <p className='text-base md:text-[18px]'><strong>This includes access to our private suppliers that we have built relationships with over the past several years, the softwares that we use to find endless winning, unsaturated products and niches, and more. Additionally, you’ll learn exactly how we leverage AI to save time and make higher-converting Etsy stores.</strong></p>
-                        <ul className='w-full flex flex-col gap-3 p-5 bg-green-100 rounded-2xl'>
-                            <p><strong>The resources consist of:</strong></p>
-                            <li className='flex gap-5 pt-2'>
-                                <FaCheckCircle className='text-green-500' />
-                                <span className='text-[13px] md:text-[18px]'>How we leverage AI to scale our Etsy stores</span>
+                    <div className="w-full max-w-[640px] h-full p-5 pb-8 md:p-12 md:pb-14 rounded-2xl py-8  flex flex-col gap-6 mx-auto bg-gradient-to-br from-[rgba(0,26,4,0.1)] to-[rgba(0,167,83,0.1)]
+                        bg-cover bg-center bg-no-repeat">
+                        <div className='w-16 h-16 bg-emerald-600 rounded-full flex items-center justify-center text-white text-4xl pl-1 '><FaFolderOpen /></div>
+                        <h3 className='text-2xl font-semibold text-emerald-500'>Resources (Including AI Automations)</h3>
+                        <p className='text-base md:text-[18px] text-emerald-500'>Joining the Easy Etsy community unlocks access to exclusive resources that we personally use to outcompete the competition with ease, in order to achieve results in months that takes others years.</p>
+                        <p className='text-base md:text-[18px] text-emerald-500'><strong>This includes access to our private suppliers that we have built relationships with over the past several years, the softwares that we use to find endless winning, unsaturated products and niches, and more. Additionally, you’ll learn exactly how we leverage AI to save time and make higher-converting Etsy stores.</strong></p>
+                        <ul className='w-full flex flex-col gap-3 p-5 bg-emerald-500/10 rounded-2xl'>
+                            <p className='text-base md:text-xl text-emerald-500'><strong>The resources consist of:</strong></p>
+                            <li className='flex items-center gap-5 pt-2'>
+                                <FaCheckCircle className='text-emerald-500' />
+                                <span className='text-[13px] md:text-[18px] text-emerald-500'>How we leverage AI to scale our Etsy stores</span>
                             </li>
-                            <li className='flex gap-5 pt-2'>
-                                <FaCheckCircle className='text-green-500' />
-                                <span className='text-[13px] md:text-[18px]'>Personally vetted private suppliers</span>
+                            <li className='flex items-center gap-5 pt-2'>
+                                <FaCheckCircle className='text-emerald-500' />
+                                <span className='text-[13px] md:text-[18px] text-emerald-500'>Personally vetted private suppliers</span>
                             </li>
-                            <li className='flex gap-5 pt-2'>
-                                <FaCheckCircle className='text-green-500' />
-                                <span className='text-[13px] md:text-[18px]'>Product and niche research softwares</span>
+                            <li className='flex items-center gap-5 pt-2'>
+                                <FaCheckCircle className='text-emerald-500' />
+                                <span className='text-[13px] md:text-[18px] text-emerald-500'>Product and niche research softwares</span>
                             </li>
                         </ul>
                     </div>
                     {/* --card  1-1 Modules-- */}
-                    <div className='w-full max-w-[640px] h-full p-5 pb-8 md:p-12 md:pb-14 rounded-2xl bg-white py-8 flex flex-col gap-6 mx-auto'>
-                        <div className='w-16 h-16 bg-green-600 rounded-full flex items-center justify-center text-white text-4xl pl-1 '>
+                    <div className='w-full max-w-[640px] h-full p-5 pb-8 md:p-12 md:pb-14 rounded-2xl py-8 flex flex-col gap-6 mx-auto bg-gradient-to-bl from-[rgba(0,26,4,0.1)] to-[rgba(0,167,83,0.1)]'>
+                        <div className='w-16 h-16 bg-emerald-600 rounded-full flex items-center justify-center text-white text-4xl pl-1 '>
                             <svg width="36" height="36" viewBox="0 0 141 132" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M37.762 28.464C38.7585 32.9451 38.0316 36.2957 36.9116 40.7132C36.742 41.3939 36.5723 42.0746 36.3975 42.776C35.8556 44.9422 35.3009 47.1049 34.7456 49.2678C34.3798 50.7179 34.0148 52.1682 33.6507 53.6187C32.9792 56.2935 32.3019 58.9665 31.62 61.6386C29.0207 72.0552 25.9949 85.1963 31.105 95.2C40.3514 107.49 55.6964 109.812 69.8373 112.593C72.4226 113.115 75.0069 113.642 77.5906 114.171C79.186 114.497 80.7823 114.817 82.3798 115.132C87.8229 116.222 87.8229 116.222 89.9769 117.451C89.9228 118.439 89.8687 119.428 89.813 120.446C83.1879 122.178 76.6753 123.432 69.8718 124.186C68.5305 124.34 68.5305 124.34 67.1621 124.496C65.2853 124.709 63.408 124.918 61.5304 125.124C58.6963 125.438 55.8647 125.77 53.0329 126.103C27.3024 129.03 27.3024 129.03 20.3994 124.972C15.0324 120.25 13.2498 116.058 12.2955 109.068C12.1758 108.273 12.0562 107.478 11.9329 106.66C11.5591 104.142 11.2078 101.621 10.8616 99.0995C10.749 98.2984 10.6365 97.4973 10.5205 96.6719C9.73866 91.0957 9.00389 85.5138 8.28036 79.9298C7.96265 77.4987 7.64406 75.0678 7.32511 72.637C7.12209 71.0886 6.9197 69.5401 6.718 67.9916C6.19083 63.9589 5.63181 59.9338 5.02951 55.9115C4.08249 49.3784 3.56739 43.3421 7.09797 37.4892C11.9529 31.4631 19.0925 29.581 26.4913 28.5357C30.293 28.1698 33.953 28.0484 37.762 28.464Z" fill="#FEFCFB" />
                                 <path d="M97.4476 3.55926C100.335 4.0463 103.225 4.51499 106.115 4.98138C107.983 5.28955 109.851 5.59876 111.719 5.90911C112.567 6.04675 113.415 6.18438 114.289 6.32618C131.478 9.26567 131.478 9.26567 137.645 15.7333C142.449 22.7796 140.837 30.7298 139.349 38.6866C139.162 39.643 138.975 40.5995 138.781 41.5849C138.589 42.602 138.396 43.6191 138.198 44.667C137.583 47.899 136.958 51.1286 136.332 54.3583C135.923 56.5027 135.515 58.6473 135.108 60.7919C134.14 65.8743 133.157 70.9537 132.168 76.0319C131.69 78.4981 131.223 80.9659 130.759 83.4348C130.502 84.7778 130.246 86.1208 129.988 87.4638C129.778 88.5817 129.567 89.6995 129.35 90.8513C127.908 96.7451 125.362 101.037 120.145 104.233C109.419 108.526 96.5263 104.941 85.5822 102.858C84.1052 102.585 82.6279 102.313 81.1505 102.042C78.9893 101.645 76.8284 101.247 74.6688 100.842C69.5316 99.8789 64.3827 99.0358 59.2113 98.2746C53.9763 97.1706 48.6537 95.1581 45.172 90.956C40.1715 82.4785 41.4797 74.3858 43.254 65.2138C43.4221 64.3158 43.5902 63.4177 43.7634 62.4924C44.1199 60.595 44.4798 58.6981 44.8429 56.8019C45.3855 53.9685 45.9185 51.1334 46.4494 48.2978C47.3184 43.6743 48.2142 39.0566 49.1205 34.4403C49.6394 31.7604 50.1344 29.0769 50.6271 26.392C50.9498 24.7101 51.2734 23.0283 51.5978 21.3466C51.7302 20.5931 51.8626 19.8396 51.9991 19.0632C53.364 12.1948 56.2323 6.74366 61.6447 2.23333C71.8632 -2.66764 86.8311 1.76433 97.4476 3.55926Z" fill="#FEFDFB" />
@@ -53,28 +56,28 @@ export default function Ourprogram() {
                                 <line x1="64.2368" y1="61.6655" x2="88.3327" y2="65.4304" stroke="#00A63E" strokeWidth="8" strokeLinecap="round" />
                             </svg>
                         </div>
-                        <h3 className='text-2xl font-semibold'>Modules</h3>
-                        <p>The modules within the Easy Etsy program will teach you step-by-step how to master dropshipping on Etsy and make $10k-15k+ per month, with some of our clients reaching $30k per month and beyond.</p>
-                        <p><strong>These are proven and battle-tested strategies that we’ve used to generate over 7 figures in sales on Etsy.</strong></p>
-                        <ul className='w-full flex flex-col gap-3 p-5 bg-green-100 rounded-2xl'>
-                            <p><strong>Our Modules Cover</strong></p>
-                            <li className='flex gap-5 pt-2'>
-                                <FaCheckCircle className='text-green-500' />
-                                <span className='text-[13px] md:text-[18px]'>An A-Z in-depth guide on Etsy dropshipping</span>
+                        <h3 className='text-2xl font-semibold text-emerald-500'>Modules</h3>
+                        <p className='text-[13px] md:text-[18px] text-emerald-500'>The modules within the Easy Etsy program will teach you step-by-step how to master dropshipping on Etsy and make $10k-15k+ per month, with some of our clients reaching $30k per month and beyond.</p>
+                        <p className='text-[13px] md:text-[18px] text-emerald-500'><strong>These are proven and battle-tested strategies that we’ve used to generate over 7 figures in sales on Etsy.</strong></p>
+                        <ul className='w-full flex flex-col gap-3 p-5 bg-emerald-500/10 rounded-2xl'>
+                            <p className='text-base md:text-xl text-emerald-500'><strong>Our Modules Cover</strong></p>
+                            <li className='flex items-center gap-5 pt-2'>
+                                <FaCheckCircle className='text-emerald-500' />
+                                <span className='text-[13px] md:text-[18px] text-emerald-500'>An A-Z in-depth guide on Etsy dropshipping</span>
                             </li>
-                            <li className='flex gap-5 pt-2'>
-                                <FaCheckCircle className='text-green-500' />
-                                <span className='text-[13px] md:text-[18px]'>Winning product research strategies</span>
+                            <li className='flex items-center gap-5 pt-2'>
+                                <FaCheckCircle className='text-emerald-500' />
+                                <span className='text-[13px] md:text-[18px] text-emerald-500'>Winning product research strategies</span>
                             </li>
-                            <li className='flex gap-5 pt-2'>
-                                <FaCheckCircle className='text-green-500' />
-                                <span className='text-[13px] md:text-[18px]'>Scaling strategies & conversion optimisation</span>
+                            <li className='flex items-center gap-5 pt-2'>
+                                <FaCheckCircle className='text-emerald-500' />
+                                <span className='text-[13px] md:text-[18px] text-emerald-500'>Scaling strategies & conversion optimisation</span>
                             </li>
                         </ul>
                     </div>
                     {/* --card  1-1 1-1 Mentorship-- */}
-                    <div className='w-full max-w-[640px] h-full p-5 pb-8 md:p-12 md:pb-14 rounded-2xl bg-white py-8 flex flex-col gap-6 mx-auto'>
-                        <div className='w-16 h-16 bg-green-600 rounded-full flex items-center justify-center text-white text-4xl pl-1 '>
+                    <div className='w-full max-w-[640px] h-full p-5 pb-8 md:p-12 md:pb-14 rounded-2xl py-8 flex flex-col gap-6 mx-auto bg-gradient-to-tr from-[rgba(0,26,4,0.1)] to-[rgba(0,167,83,0.1)]'>
+                        <div className='w-16 h-16 bg-emerald-600 rounded-full flex items-center justify-center text-white text-4xl pl-1 '>
                             <svg width="34" height="34" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M443.705 17.312C447.354 20.3369 450.691 23.6105 454 26.9999C454.998 27.9667 454.998 27.9667 456.016 28.9531C468.625 42.0166 474.173 61.2295 474 78.9999C472.838 101.469 463.801 119.084 447.562 134.281C438.447 142.077 427.575 147.067 416 150C417.796 150.437 417.796 150.437 419.629 150.883C440.373 156.051 458.992 163.453 475 178C475.519 178.47 476.039 178.941 476.574 179.425C496.48 197.682 507.202 220.611 512 247C512 263.17 512 279.34 512 296C438.08 296 364.16 296 288 296C288 249.346 289.284 213.957 321.312 181.25C338.668 164.103 360.556 155.37 384 150C383.212 149.792 382.425 149.585 381.613 149.371C361.143 143.581 345.612 132.067 335.066 113.617C331.135 106.331 328.531 99.1318 327 90.9999C326.773 89.8656 326.546 88.7312 326.312 87.5624C324.491 66.7965 328.848 47.5247 342 30.9999C342.583 30.242 343.165 29.484 343.766 28.7031C367.306 0.0190907 414.307 -5.30944 443.705 17.312Z" fill="white" />
                                 <path d="M156.741 230.28C172.801 243.229 183.311 260.499 186 281C187.985 302.903 181.759 323.202 167.688 340.187C161.498 346.896 154.485 351.97 146.5 356.312C145.908 356.638 145.315 356.963 144.705 357.299C139.677 359.925 134.459 361.506 129 363C129.567 363.135 130.134 363.269 130.718 363.408C150.626 368.233 167.907 375.184 184 388C184.839 388.668 185.678 389.335 186.543 390.023C192.488 395.037 197.276 400.847 202 407C202.596 407.745 203.191 408.49 203.805 409.258C226.201 438.879 224 471.904 224 508C150.08 508 76.16 508 0 508C0 448.167 0 448.167 7.6875 431.187C8.02999 430.407 8.37248 429.627 8.72534 428.824C20.7719 402.235 42.8336 380.879 70 370C74.9516 368.277 79.9892 366.867 85.0542 365.521C88.0474 364.719 91.0225 363.858 94 363C93.2614 362.781 92.5227 362.562 91.7617 362.336C71.3796 355.965 55.7782 343.316 45.7227 324.453C36.7327 306.432 35.2906 286.302 41.2725 267.1C47.9224 247.908 61.0905 232.599 79.375 223.625C104.642 213.037 134.024 213.578 156.741 230.28Z" fill="#F6F9FA" />
@@ -86,28 +89,28 @@ export default function Ourprogram() {
 
 
                         </div>
-                        <h3 className='text-2xl font-semibold'>1-1 Mentorship</h3>
-                        <p>The Easy Etsy team are here to hold your hand throughout the program whilst working with you 1-on-1 in order to ensure you progress as quickly and seamlessly as possible.</p>
-                        <p><strong>Ongoing 1-on-1 support and 24/7 access to your coach gives you everything you need to be our next success story.</strong></p>
-                        <ul className='w-full flex flex-col gap-3 p-5 bg-green-100 rounded-2xl'>
-                            <p><strong>You’ll gain direct access to:</strong></p>
-                            <li className='flex gap-5 pt-2'>
-                                <FaCheckCircle className='text-green-500' />
-                                <span className='text-[13px] md:text-[18px]'>24/7 contact with your coach</span>
+                        <h3 className='text-2xl font-semibold text-emerald-500'>1-1 Mentorship</h3>
+                        <p className='text-[13px] md:text-[18px] text-emerald-500'>The Easy Etsy team are here to hold your hand throughout the program whilst working with you 1-on-1 in order to ensure you progress as quickly and seamlessly as possible.</p>
+                        <p className='text-[13px] md:text-[18px] text-emerald-500'><strong>Ongoing 1-on-1 support and 24/7 access to your coach gives you everything you need to be our next success story.</strong></p>
+                        <ul className='w-full flex flex-col gap-3 p-5 bg-emerald-500/10 rounded-2xl'>
+                            <p className='text-base md:text-xl text-emerald-500'><strong>You’ll gain direct access to:</strong></p>
+                            <li className='flex items-center gap-5 pt-2'>
+                                <FaCheckCircle className='text-emerald-500' />
+                                <span className='text-[13px] md:text-[18px] text-emerald-500'>24/7 contact with your coach</span>
                             </li>
-                            <li className='flex gap-5 pt-2'>
-                                <FaCheckCircle className='text-green-500' />
-                                <span className='text-[13px] md:text-[18px]'>Personalised mentorship and guidance</span>
+                            <li className='flex items-center gap-5 pt-2'>
+                                <FaCheckCircle className='text-emerald-500' />
+                                <span className='text-[13px] md:text-[18px] text-emerald-500'>Personalised mentorship and guidance</span>
                             </li>
-                            <li className='flex gap-5 pt-2'>
-                                <FaCheckCircle className='text-green-500' />
-                                <span className='text-[13px] md:text-[18px]'>Several coaching calls each week</span>
+                            <li className='flex items-center gap-5 pt-2'>
+                                <FaCheckCircle className='text-emerald-500' />
+                                <span className='text-[13px] md:text-[18px] text-emerald-500'>Several coaching calls each week</span>
                             </li>
                         </ul>
                     </div>
                     {/* --card  1-1 1-1 Community-- */}
-                    <div className='w-full max-w-[640px] h-full p-5 pb-8 md:p-12 md:pb-14 rounded-2xl bg-white py-8 flex flex-col gap-6 mx-auto'>
-                        <div className='w-16 h-16 bg-green-600 rounded-full flex items-center justify-center text-white text-4xl pl-1 '>
+                    <div className='w-full max-w-[640px] h-full p-5 pb-8 md:p-12 md:pb-14 rounded-2xl  py-8 flex flex-col gap-6 mx-auto bg-gradient-to-tl from-[rgba(0,26,4,0.1)] to-[rgba(0,167,83,0.1)]'>
+                        <div className='w-16 h-16 bg-emerald-600 rounded-full flex items-center justify-center text-white text-4xl pl-1 '>
                             <svg width="34" height="34" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="3" cy="2" r="2" fill="white" />
                                 <circle cx="12" cy="2" r="2" fill="white" />
@@ -116,31 +119,29 @@ export default function Ourprogram() {
                                 <path d="M7.5 6.25C10.3568 6.25 12.75 9.07363 12.75 12.6611C12.75 13.5558 12.5993 14.1752 12.3506 14.6084C12.1057 15.0349 11.7537 15.3024 11.3018 15.4717C10.8422 15.6438 10.2815 15.7137 9.63184 15.7383C8.97973 15.7629 8.27041 15.7412 7.5 15.7412C6.72959 15.7412 6.02027 15.7629 5.36816 15.7383C4.71853 15.7137 4.15782 15.6438 3.69824 15.4717C3.24628 15.3024 2.89431 15.0349 2.64941 14.6084C2.40066 14.1752 2.25003 13.5558 2.25 12.6611C2.25 9.07363 4.64317 6.25 7.5 6.25Z" fill="#F6F9FA" stroke="#00A63E" strokeWidth="0.5" />
                                 <circle cx="7.5" cy="3.5" r="3.25" fill="white" stroke="#00A63E" strokeWidth="0.5" />
                             </svg>
-
-
                         </div>
-                        <h3 className='text-2xl font-semibold'>Community</h3>
-                        <p>The Easy Etsy community is full of like-minded ambitious individuals who want to see each other win. From beginners getting their first few sales to those pushing past $5k-30k+ per month, our exclusive network enables all members to maximise their potential.</p>
-                        <p><strong>Not only are you motivated by everyone else winning, but you also gain access to the unique knowledge, experience and strategies used by other members of the community.</strong></p>
-                        <ul className='w-full flex flex-col gap-3 p-5 bg-green-100 rounded-2xl'>
-                            <p><strong>The community includes:</strong></p>
+                        <h3 className='text-2xl font-semibold text-emerald-500'>Community</h3>
+                        <p className='text-[13px] md:text-[18px] text-emerald-500'>The Easy Etsy community is full of like-minded ambitious individuals who want to see each other win. From beginners getting their first few sales to those pushing past $5k-30k+ per month, our exclusive network enables all members to maximise their potential.</p>
+                        <p className='text-[13px] md:text-[18px] text-emerald-500'><strong>Not only are you motivated by everyone else winning, but you also gain access to the unique knowledge, experience and strategies used by other members of the community.</strong></p>
+                        <ul className='w-full flex flex-col gap-3 p-5 bg-emerald-500/10 rounded-2xl'>
+                            <p className='text-base md:text-xl text-emerald-500'><strong>The community includes:</strong></p>
                             <li className='flex gap-5 pt-2'>
-                                <FaCheckCircle className='text-green-500' />
-                                <span className='text-[13px] md:text-[18px]'>Learning directly from top members</span>
+                                <FaCheckCircle className='text-emerald-500' />
+                                <span className='text-[13px] md:text-[18px] text-emerald-500'>Learning directly from top members</span>
                             </li>
                             <li className='flex gap-5 pt-2'>
-                                <FaCheckCircle className='text-green-500' />
-                                <span className='text-[13px] md:text-[18px]'>An exclusive network of like-minded people</span>
+                                <FaCheckCircle className='text-emerald-500' />
+                                <span className='text-[13px] md:text-[18px] text-emerald-500'>An exclusive network of like-minded people</span>
                             </li>
                             <li className='flex gap-5 pt-2'>
-                                <FaCheckCircle className='text-green-500' />
-                                <span className='text-[13px] md:text-[18px]'>Daily advice and a solution to every problem</span>
+                                <FaCheckCircle className='text-emerald-500' />
+                                <span className='text-[13px] md:text-[18px] text-emerald-500'>Daily advice and a solution to every problem</span>
                             </li>
                         </ul>
                     </div>
                     {/* --card  1-1 1-1 Limited Time Bonus-- */}
-                    <div className='w-full max-w-[640px] h-full p-5 pb-8 md:p-12 md:pb-14 rounded-2xl bg-white py-8 flex flex-col gap-6 mx-auto'>
-                        <div className='w-16 h-16 bg-green-600 rounded-full flex items-center justify-center text-white text-4xl pl-1 '>
+                    <div className='w-full max-w-[640px] h-full p-5 pb-8 md:p-12 md:pb-14 rounded-2xl py-8 flex flex-col gap-6 mx-auto bg-gradient-to-br from-[rgba(0,26,4,0.1)] to-[rgba(0,167,83,0.1)]'>
+                        <div className='w-16 h-16 bg-emerald-600 rounded-full flex items-center justify-center text-white text-4xl pl-1 '>
                             <svg width="34" height="34" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="3" cy="2" r="2" fill="white" />
                                 <circle cx="12" cy="2" r="2" fill="white" />
@@ -152,22 +153,22 @@ export default function Ourprogram() {
 
 
                         </div>
-                        <h3 className='text-2xl font-semibold'>Limited Time Bonus</h3>
-                        <p>To fast-track your success, for a limited time only, we are sending all new clients 1 proven winning niche and 3 vetted winning products.</p>
-                        <p><strong>This will rapidly accelerate your progress, giving you a massive head-start from day one. Join now to take advantage of this limited time offer.</strong></p>
-                        <ul className='w-full flex flex-col gap-3 p-5 bg-green-100 rounded-2xl'>
-                            <p><strong>You'll receive:</strong></p>
+                        <h3 className='text-2xl font-semibold text-emerald-500'>Limited Time Bonus</h3>
+                        <p className='text-[13px] md:text-[18px] text-emerald-500'>To fast-track your success, for a limited time only, we are sending all new clients 1 proven winning niche and 3 vetted winning products.</p>
+                        <p className='text-[13px] md:text-[18px] text-emerald-500'><strong>This will rapidly accelerate your progress, giving you a massive head-start from day one. Join now to take advantage of this limited time offer.</strong></p>
+                        <ul className='w-full flex flex-col gap-3 p-5 bg-emerald-500/10 rounded-2xl'>
+                            <p className='text-base md:text-xl text-emerald-500'><strong>You'll receive:</strong></p>
                             <li className='flex gap-5 pt-2'>
-                                <FaCheckCircle className='text-green-500' />
-                                <span className='text-[13px] md:text-[18px]'>1 proven winning niche for your Etsy store</span>
+                                <FaCheckCircle className='text-emerald-500' />
+                                <span className='text-[13px] md:text-[18px] text-emerald-500'>1 proven winning niche for your Etsy store</span>
                             </li>
                             <li className='flex gap-5 pt-2'>
-                                <FaCheckCircle className='text-green-500' />
-                                <span className='text-[13px] md:text-[18px]'>3 vetted winning products within the chosen niche</span>
+                                <FaCheckCircle className='text-emerald-500' />
+                                <span className='text-[13px] md:text-[18px] text-emerald-500'>3 vetted winning products within the chosen niche</span>
                             </li>
                             <li className='flex gap-5 pt-2'>
-                                <FaCheckCircle className='text-green-500' />
-                                <span className='text-[13px] md:text-[18px]'>The exact strategy on how we found these products</span>
+                                <FaCheckCircle className='text-emerald-500' />
+                                <span className='text-[13px] md:text-[18px] text-emerald-500'>The exact strategy on how we found these products</span>
                             </li>
                         </ul>
                     </div>

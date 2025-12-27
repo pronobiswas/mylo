@@ -61,44 +61,44 @@ export default function HeroSection() {
       className="relative isolate w-full flex flex-col items-center gap-5 overflow-hidden sm:pt-60 pt-50 pb-20"
     >
 
-        <MotionImage
-          src={'https://cdn.prod.website-files.com/669a02598d461cec73e64fc5/669a977656b8b90ec5857973_bg%20pattern.svg'}
-          alt="bg-pattern"
-          className="absolute top-10 max-w-7xl w-full z-10"
-          width={250}
-          height={250}
-          variants={slideUp}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.2 }}
-        />
+      <MotionImage
+        src={'https://cdn.prod.website-files.com/669a02598d461cec73e64fc5/669a977656b8b90ec5857973_bg%20pattern.svg'}
+        alt="bg-pattern"
+        className="absolute top-10 max-w-7xl w-full z-10"
+        width={250}
+        height={250}
+        variants={slideUp}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.2 }}
+      />
 
 
-        {/* Revenue Icon */}
-        <MotionImage
-          src={'/revenueIcon.png'}
-          alt="Revenue Icon"
-          className="absolute lg:top-110 md:top-150 top-160 left-10 z-1 w-40 sm:w-55 -rotate-6"
-          width={250}
-          height={250}
-          variants={slideUp}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.2 }}
-        />
+      {/* Revenue Icon */}
+      <MotionImage
+        src={'/revenueIcon.png'}
+        alt="Revenue Icon"
+        className="absolute lg:top-110 md:top-150 top-160 left-10 z-1 w-40 sm:w-55 -rotate-6"
+        width={250}
+        height={250}
+        variants={slideUp}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.2 }}
+      />
 
-        {/* Profit Icon */}
-        <MotionImage
-          src={'/profitIcon.png'}
-          alt="Profit Icon"
-          className="absolute lg:top-80 md:top-155 top-158 right-10 z-1 w-40 sm:w-55 rotate-4"
-          width={250}
-          height={250}
-          variants={slideUp}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.2 }}
-        />
+      {/* Profit Icon */}
+      <MotionImage
+        src={'/profitIcon.png'}
+        alt="Profit Icon"
+        className="absolute lg:top-80 md:top-155 top-158 right-10 z-1 w-40 sm:w-55 rotate-4"
+        width={250}
+        height={250}
+        variants={slideUp}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.2 }}
+      />
 
 
       {/* Background (confined to hero only) */}
@@ -128,14 +128,14 @@ export default function HeroSection() {
 
         {/* Title */}
         <motion.h1
-        variants={slideUp}
-        className="md:text-6xl lg:text-6xl sm:text-5xl text-4xl font-semibold text-white text-center sm:leading-[4.375rem] leading-[3rem] tracking-[-0.05em]"
+          variants={slideUp}
+          className="md:text-6xl lg:text-6xl sm:text-5xl text-4xl font-semibold text-white text-center sm:leading-[4.375rem] leading-[3rem] tracking-[-0.05em]"
         >
           Replace your income and earn{" "}
           <span className={`${instrumentSerif.className} font-normal text-emerald-400`}>
             {displayText}
           </span>{" "}
-          by Dropshipping with TikTok Ads within the next 60 days <br/> GUARANTEED
+          by Dropshipping with TikTok Ads within the next 60 days <br /> GUARANTEED
         </motion.h1>
 
         {/* Subtitle */}
@@ -147,25 +147,29 @@ export default function HeroSection() {
         <motion.div variants={slideUp} className="w-full flex justify-center">
           <DomainButton />
         </motion.div>
+      </div>
 
+      <div className="w-full">
         {/* Video + logo */}
         <motion.div
           variants={slideUp}
-          className="z-10 w-full max-w-4xl mx-auto rounded-3xl overflow-hidden mt-30 flex flex-col items-center gap-5"
+          className="z-10 w-full max-w-[1660px] border-amber-600 mx-auto rounded-3xl overflow-hidden flex flex-col items-center gap-5"
         >
-          <div className="w-full aspect-video rounded-3xl overflow-hidden">
+          <div className="w-full h-full aspect-[1660/728] py-10 rounded-3xl">
             <video
-              controls
+              autoPlay
+              muted
+              loop
               playsInline
-              className="w-full h-full object-cover"
+              controls
+              className="w-full h-full object-cover rounded-3xl"
             >
-              <source src="/demo.mp4" type="video/mp4" />
+              <source src="/videos/kai.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
           <Image src={ShopifyIcon} alt="Shopify Icon" className="h-14 w-auto" />
         </motion.div>
-
       </div>
 
       {/* optional: fade bottom edge so transition to next section feels clean */}

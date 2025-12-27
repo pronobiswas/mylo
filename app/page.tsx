@@ -19,21 +19,16 @@ import OurProgram from "@/components/ourprogram";
 
 
 export default function Home() {
-  return ( 
-    <div className="w-full min-h-screen relative flex flex-col items-center  bg-black  overflow-hidden">
-             
+  return (
+    <div className="w-full h-full min-h-screen relative flex flex-col items-center  bg-black  overflow-hidden">
+
       {/* <Header /> */}
 
       <HeroSection />
 
-      <main 
-      style={{
-        backgroundColor:"#001e1b",
-         background: "linear-gradient(rgb(0, 30, 27), #00311840, #1e00314a, #00102d4d, black, black)"
-        
-      }}
-      
-      className="main w-full pt-28 ">
+      <main
+        className="w-full h-full"
+      >
 
 
         {/* <section id="process" className="flex w-full justify-center items-center max-w-5xl mx-auto scroll-mt-[130px] -mt-20">
@@ -68,16 +63,19 @@ export default function Home() {
           <DownloadList />
         </section> */}
 
+        <section id="section_step_2" className="w-full h-fit flex justify-center py-12 bg-gradient-to-b from-[rgb(2,30,27)] to-black
+        bg-cover bg-center bg-no-repeat">
+          <Step2 />
+        </section>
+
         <section>
-          <OurProgram/>
+          <OurProgram />
         </section>
         <section>
-          <Beforeourupcomingcall/>
+          <Beforeourupcomingcall />
         </section>
         {/* bg-[#00d492] */}
-        <section id="section_step_2" className="w-full h-fit flex justify-center pt-20 ">
-            <Step2 />
-        </section>
+
       </main>
 
       <Footer />

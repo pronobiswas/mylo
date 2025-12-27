@@ -4,7 +4,7 @@ import React from 'react'
 const Step2 = () => {
     return (
         <>
-            <section id='section2' className='w-full h-fit' >
+            <section id='section2' className='w-full h-fit bg-transparent' >
                 <div className='w-full h-fit p-5 '>
                     {/* ===heading=== */}
                     <div className='text-white text-center pb-8 '>
@@ -12,7 +12,7 @@ const Step2 = () => {
                         <h2 className='text-3xl' >Fill out the <span className='text-emerald-400'>form below</span> and <span className='text-emerald-400'>book a call</span></h2>
                     </div>
                     {/* ===forrm section=== */}
-                    <div className='w-full max-w-3xl bg-[#bb1616ef] text-white mx-auto p-5 hidden'>
+                    <div className='w-full max-w-3xl text-white mx-auto p-5 hidden'>
                         {/* ---heading--- */}
                         <div>
                             <h2 className='text-3xl font-bold'>Easy Step</h2>
