@@ -58,7 +58,7 @@ export default function HeroSection() {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.2 }}
-      className="relative isolate w-full flex flex-col items-center gap-5 overflow-hidden sm:pt-60 pt-50 pb-20"
+      className="relative isolate w-full flex flex-col items-center gap-5 overflow-hidden pt-12 lg:pt-20 pb-20"
     >
 
       <MotionImage
@@ -144,9 +144,9 @@ export default function HeroSection() {
         </motion.p>
 
         {/* Button */}
-        <motion.div variants={slideUp} className="w-full flex justify-center">
+        {/* <motion.div variants={slideUp} className="w-full flex justify-center ">
           <DomainButton />
-        </motion.div>
+        </motion.div> */}
       </div>
 
       <div className="w-full">
@@ -162,7 +162,7 @@ export default function HeroSection() {
               loop
               playsInline
               controls
-              className="w-full h-full object-cover rounded-3xl"
+              className="w-full h-full min-h-80 object-cover rounded-3xl"
             >
               <source src="/videos/kai.mp4" type="video/mp4" />
               Your browser does not support the video tag.
